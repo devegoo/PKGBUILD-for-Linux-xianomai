@@ -41,7 +41,8 @@ prepare() {
   done
 
   echo "Setting config..."
-  make olddefconfig
+  yes "" | make oldconfig
+  make localmodconfig
 
   make -s kernelrelease > version
   echo "Prepared $pkgbase version $(<version)"
