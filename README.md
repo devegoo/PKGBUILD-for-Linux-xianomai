@@ -4,7 +4,7 @@ it is PKGBUILD for build Arch packages: kernel Linux-evl (xianomai4) from prefet
 
 from branch 5.13-evl-rebase currently
 
-cd <where PKGBUILD unpacked is>
+cd "where PKGBUILD unpacked is"
   
 mkdir src
   
