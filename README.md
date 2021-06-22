@@ -16,4 +16,4 @@ after cloned
   
 cd ..
   
-makepkg -si
+makepkg -si --skipinteg --skipchecksums --skippgpcheck PKGBUILD
