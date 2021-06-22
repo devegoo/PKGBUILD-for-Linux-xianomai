@@ -16,6 +16,8 @@ or
 
 git clone -b dovetail/master --depth=1  git://git.evlproject.org/linux-evl.git
 
+wget https://github.com/hongzhanchen/xenomai-rpm/blob/for-upstream/dovetail/scripts/prepare-kernel.sh
+
 ./scripts/prepare-kernel.sh --linux=linux-evl --arch=x86_64 --dovetail=0001-null-patch.patch
 
   
