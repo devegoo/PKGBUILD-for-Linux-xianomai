@@ -15,6 +15,7 @@ git clone --depth=1 https://source.denx.de/Xenomai/xenomai4/linux-evl.git --bran
 or
 
 git clone -b dovetail/master --depth=1  git://git.evlproject.org/linux-evl.git
+
 ./scripts/prepare-kernel.sh --linux=linux-evl --arch=x86_64 --dovetail=0001-null-patch.patch
 
   
